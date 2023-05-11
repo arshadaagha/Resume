@@ -27,6 +27,9 @@ function App() {
                   <Route exact path="/about" element={<AboutUs/>}></Route>
                   <Route path="*" element={<Navigate to="/about" />}></Route>
             </Routes> 
+            <footer className='font-bold'>
+            @copy-right-2023-By-SHINE-BUILDERS (MD ARESHAD ALI -8297971398) 
+          </footer>
         </div>
     </div>
   )
